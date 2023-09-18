@@ -3,7 +3,7 @@ title: 'dsa4hf: Project to showcase AI solutions for medical applications in OHI
 colorFrom: indigo
 colorTo: indigo
 sdk: docker
-app_port: 8080
+app_port: 3000:8080/tcp
 emoji: 🔬
 pinned: false
 license: mit
