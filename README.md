@@ -26,7 +26,7 @@ When the solution is ready, the website should be accessible on [Hugging Face](h
 ```
 git clone https://github.com/andreped/ohif4hf.git
 docker build --no-cache -t ohif4hf .
-docker run -p 3000:80 --name ohif4hf-container ohif4hf
+docker run -p 3000:80 ohif4hf
 ```
 
 To go inside docker image and debug, at the bottom of the Dockerfile, add `ENTRYPOINT [ "/bin/sh" ]` before running.
