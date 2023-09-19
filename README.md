@@ -24,17 +24,25 @@ custom_headers:
 
 </div>
 
-## 💻 [Getting started](https://github.com/andreped/ohif4hf#getting-started)
+## :gift: [Brief intro](https://github.com/andreped/ohif4hf#brief-intro)
+
+The aim of this project, is to enable people without programming expertise to easily test AI solutions on their own data. The AI models should be accessible through a user-friendly user interface (UI), accessible through a browser, not requiring any installation stage.
+
+For the UI, we have used OHIF, which already has all the core features required for reading CTs/MRIs/WSIs and visualizing them, and we will be developing plugins for OHIF, which adds AI model support.
+
+One of the first models we will be adding, are the preoperative tumour segmentation models, which are available in the open software [Raidionics](https://github.com/raidionics/Raidionics).
+
+## 🤗 [Demo](https://github.com/andreped/ohif4hf#demo)  <a target="_blank" href="https://huggingface.co/spaces/andreped/neukit"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a>
+
+To access the live demo, click on the Hugging Face badge above. Below is a snapshot of the current state of the demo app.
+
+![Screenshot 2023-09-19 at 11 14 33](https://github.com/andreped/ohif4hf/assets/29090665/5fbb9223-a9d3-49ae-aecf-7a9ba119a1c6)
 
 _**NOTE:** The project is a work-in-progress. The final plugin(s) are yet to be added. Stay tuned!_
 
-### 🤗 [Deployment](https://github.com/andreped/ohif4hf#deployment)  <a target="_blank" href="https://huggingface.co/spaces/andreped/neukit"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a>
-
-The solution is deployed on Hugging Face (HF) spaces. Click the badge above to access it.
-
 The web app is also deployed on [my personal website](https://andreped.github.io/demos/2023/ohif-plugin/), using HF for hosting the solution.
 
-### 🐳 [Development](https://github.com/andreped/ohif4hf#development)
+## 🐳 [Development](https://github.com/andreped/ohif4hf#development)
 
 ```
 git clone https://github.com/andreped/ohif4hf.git
