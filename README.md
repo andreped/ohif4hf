@@ -12,7 +12,21 @@ custom_headers:
   cross-origin-resource-policy: cross-origin
 ---
 
+<div align="center">
+<h1 align="center">ohif4hf</h1>
+<h3 align="center">Project to showcase AI solutions for medical applications in OHIF</h3>
+
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
+[![CI/CD](https://github.com/andreped/ohif4hf/actions/workflows/deploy.yml/badge.svg)](https://github.com/andreped/ohif4hf/actions/workflows/deploy.yml)
+<a target="_blank" href="https://huggingface.co/spaces/andreped/neukit"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a><a href="https://colab.research.google.com/gist/andreped/f83e53b120ddc2f6930f1dd66a16f248/neukit-demo-example.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+**ohif4hf** was developed by SINTEF Medical Image Analysis to accelerate open-source medical AI research.
+
+</div>
+
 # ohif4hf
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
+<a target="_blank" href="https://huggingface.co/spaces/andreped/neukit"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a><a 
 
 This project was made to showcase developed plugins for OHIF through hosting on Hugging Face spaces.
 
@@ -20,7 +34,7 @@ The project is a work-in-progress. I will make a release when I have it working.
 
 ## Getting started
 
-#### Deployment
+#### Deployment <a target="_blank" href="https://huggingface.co/spaces/andreped/neukit"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a>
 
 When the solution is ready, the website should be accessible on [Hugging Face](https://huggingface.co/spaces/andreped/ohif4hf).
 
