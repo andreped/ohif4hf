@@ -47,8 +47,10 @@ To go inside docker image and debug, at the bottom of the Dockerfile, add `ENTRY
 ## 👏 [Acknowledgements](https://github.com/andreped/ohif4hf#acknowledgements)
 
 I did not develop OHIF, only implemented some plugins and showcased deployment on Hugging Face space.
+
 Credit should be given to the developers of OHIF for making such an amazing open software solution!
-I also want to acknoweledge [@radames](https://github.com/radames) at Hugging Face for assistance with HF space integration.
+
+I also want to acknowledge [@radames](https://github.com/radames) at Hugging Face for assistance with HF space integration.
 
 ## ✨ [License](https://github.com/andreped/ohif4hf#license)
 
