@@ -36,7 +36,7 @@ One of the first models we will be adding, are the preoperative tumour segmentat
 
 To access the live demo, click on the image below or the Hugging Face badge above. Below is a snapshot of the current state of the demo app.
 
-[![Watch the video](doc/images/snapshot-deploy.png)](https://huggingface.co/spaces/andreped/ohif4hf)
+[![Watch the video](docs/images/snapshot-deploy.png)](https://huggingface.co/spaces/andreped/ohif4hf)
 
 _**NOTE:** The project is a work-in-progress. The final plugin(s) are yet to be added. Stay tuned!_
 
