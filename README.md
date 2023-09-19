@@ -12,7 +12,7 @@ custom_headers:
   cross-origin-resource-policy: cross-origin
 ---
 
-<div align="center">
+<div align="center"> 
 <h1 align="center">ohif4hf</h1>
 <h3 align="center">Project to showcase AI solutions for medical applications in OHIF</h3>
 
