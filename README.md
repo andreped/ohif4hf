@@ -20,21 +20,21 @@ custom_headers:
 [![CI/CD](https://github.com/andreped/ohif4hf/actions/workflows/deploy.yml/badge.svg)](https://github.com/andreped/ohif4hf/actions/workflows/deploy.yml)
 <a target="_blank" href="https://huggingface.co/spaces/andreped/neukit"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a><a href="https://colab.research.google.com/gist/andreped/f83e53b120ddc2f6930f1dd66a16f248/neukit-demo-example.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-**ohif4hf** was developed by SINTEF Medical Image Analysis to accelerate open-source medical AI research.
+**ohif4hf** was developed by SINTEF Medical Image Analysis to accelerate medical AI research.
 
 </div>
 
-This project was made to showcase developed plugins for OHIF through hosting on Hugging Face spaces.
+## 💻 [Getting started](https://github.com/andreped/ohif4hf#getting-started)
 
-The project is a work-in-progress. I will make a release when I have it working. Stay tuned!
+_**NOTE:** The project is a work-in-progress. The final plugin(s) are yet to be added. Stay tuned!_
 
-## Getting started
+### 🤗 [Deployment](https://github.com/andreped/ohif4hf#deployment)  <a target="_blank" href="https://huggingface.co/spaces/andreped/neukit"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a>
 
-#### Deployment <a target="_blank" href="https://huggingface.co/spaces/andreped/neukit"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a>
+The solution is deployed on Hugging Face (HF) spaces. Click the badge above to access it.
 
-When the solution is ready, the website should be accessible on [Hugging Face](https://huggingface.co/spaces/andreped/ohif4hf).
+The web app is also deployed on [my personal website](https://andreped.github.io/demos/2023/ohif-plugin/), using HF for hosting the solution.
 
-#### Development
+### 🐳 [Development](https://github.com/andreped/ohif4hf#development)
 
 ```
 git clone https://github.com/andreped/ohif4hf.git
@@ -44,7 +44,12 @@ docker run ohif4hf
 
 To go inside docker image and debug, at the bottom of the Dockerfile, add `ENTRYPOINT [ "/bin/sh" ]` before running.
 
-## Credit
+## 👏 [Acknowledgements](https://github.com/andreped/ohif4hf#acknowledgements)
 
 I did not develop OHIF, only implemented some plugins and showcased deployment on Hugging Face space.
 Credit should be given to the developers of OHIF for making such an amazing open software solution!
+I also want to acknoweledge [@radames](https://github.com/radames) at Hugging Face for assistance with HF space integration.
+
+## ✨ [License](https://github.com/andreped/ohif4hf#license)
+
+The code in this repository is released under [MIT-License](https://github.com/andreped/ohif4hf/blob/main/LICENSE).
