@@ -24,10 +24,6 @@ custom_headers:
 
 </div>
 
-# ohif4hf
-[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
-<a target="_blank" href="https://huggingface.co/spaces/andreped/neukit"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a><a 
-
 This project was made to showcase developed plugins for OHIF through hosting on Hugging Face spaces.
 
 The project is a work-in-progress. I will make a release when I have it working. Stay tuned!
