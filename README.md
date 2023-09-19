@@ -3,10 +3,13 @@ title: 'dsa4hf: Project to showcase AI solutions for medical applications in OHI
 colorFrom: indigo
 colorTo: indigo
 sdk: docker
-app_port: 3000
 emoji: 🔬
 pinned: false
 license: mit
+custom_headers:
+  cross-origin-embedder-policy: require-corp
+  cross-origin-opener-policy: same-origin
+  cross-origin-resource-policy: cross-origin
 ---
 
 # ohif4hf
@@ -26,7 +29,7 @@ When the solution is ready, the website should be accessible on [Hugging Face](h
 ```
 git clone https://github.com/andreped/ohif4hf.git
 docker build --no-cache -t ohif4hf .
-docker run -p 3000:80 ohif4hf
+docker run -p 4444:7860 ohif4hf
 ```
 
 To go inside docker image and debug, at the bottom of the Dockerfile, add `ENTRYPOINT [ "/bin/sh" ]` before running.
