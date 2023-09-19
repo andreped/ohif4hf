@@ -1,5 +1,5 @@
 ---
-title: 'dsa4hf: Project to showcase AI solutions for medical applications in OHIF'
+title: 'ohif4hf: Project to showcase AI solutions for medical applications in OHIF'
 colorFrom: indigo
 colorTo: indigo
 sdk: docker
@@ -29,7 +29,7 @@ When the solution is ready, the website should be accessible on [Hugging Face](h
 ```
 git clone https://github.com/andreped/ohif4hf.git
 docker build --no-cache -t ohif4hf .
-docker run -p 4444:7860 ohif4hf
+docker run ohif4hf
 ```
 
 To go inside docker image and debug, at the bottom of the Dockerfile, add `ENTRYPOINT [ "/bin/sh" ]` before running.
