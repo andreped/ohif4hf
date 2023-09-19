@@ -34,9 +34,9 @@ One of the first models we will be adding, are the preoperative tumour segmentat
 
 ## 🤗 [Demo](https://github.com/andreped/ohif4hf#demo)  <a target="_blank" href="https://huggingface.co/spaces/andreped/neukit"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a>
 
-To access the live demo, click on the Hugging Face badge above. Below is a snapshot of the current state of the demo app.
+To access the live demo, click on the image below or the Hugging Face badge above. Below is a snapshot of the current state of the demo app.
 
-![Screenshot 2023-09-19 at 11 14 33](https://github.com/andreped/ohif4hf/assets/29090665/5fbb9223-a9d3-49ae-aecf-7a9ba119a1c6)
+[![Watch the video](doc/images/snapshot-deploy.png)](https://huggingface.co/spaces/andreped/ohif4hf)
 
 _**NOTE:** The project is a work-in-progress. The final plugin(s) are yet to be added. Stay tuned!_
 
