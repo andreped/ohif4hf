@@ -18,7 +18,7 @@ custom_headers:
 
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
 [![CI/CD](https://github.com/andreped/ohif4hf/actions/workflows/deploy.yml/badge.svg)](https://github.com/andreped/ohif4hf/actions/workflows/deploy.yml)
-<a target="_blank" href="https://huggingface.co/spaces/andreped/neukit"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a>
+<a target="_blank" href="https://huggingface.co/spaces/andreped/ohif4hf"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a>
 
 **ohif4hf** was developed by SINTEF Medical Image Analysis to accelerate medical AI research.
 
@@ -32,7 +32,7 @@ For the UI, we have used OHIF, which already has all the core features required 
 
 One of the first models we will be adding, are the preoperative tumour segmentation models, which are available in the open software [Raidionics](https://github.com/raidionics/Raidionics).
 
-## 🤗 [Demo](https://github.com/andreped/ohif4hf#demo)  <a target="_blank" href="https://huggingface.co/spaces/andreped/neukit"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a>
+## 🤗 [Demo](https://github.com/andreped/ohif4hf#demo)  <a target="_blank" href="https://huggingface.co/spaces/andreped/ohif4hf"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-yellow.svg"></a>
 
 To access the live demo, click on the Hugging Face badge above. Below is a snapshot of the current state of the demo app.
 
