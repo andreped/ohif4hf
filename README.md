@@ -47,11 +47,15 @@ The web app is also deployed on [my personal website](https://andreped.github.io
 
 ```
 git clone https://github.com/andreped/ohif4hf.git
-docker build --no-cache -t ohif4hf .
-docker run ohif4hf
+docker build -t ohif4hf:latest .
+docker run -ti -p 7860:7860 ohif4hf:latest
 ```
 
+Then in your favourite browser, go to `http://localhost:7860`
+
 To go inside docker image and debug, at the bottom of the Dockerfile, add `ENTRYPOINT [ "/bin/sh" ]` before running.
+
+For development, it might also be useful to build the docker image using `--no-cache`.
 
 ## 👏 [Acknowledgements](https://github.com/andreped/ohif4hf#acknowledgements)
 
