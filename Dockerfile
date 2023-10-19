@@ -18,7 +18,7 @@ RUN git clone --recursive https://github.com/OHIF/Viewers.git .
 #RUN find platform \! -name "package.json" -mindepth 2 -maxdepth 2 -print | xargs rm -rf
 
 # Copy Files
-FROM node:16.15.0-slim as builder
+FROM node:16.18.0-slim as builder
 RUN apt-get update && apt-get install -y build-essential python3
 RUN mkdir /usr/src/app
 WORKDIR /usr/src/app
